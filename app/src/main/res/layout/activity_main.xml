@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.didact.u2_controles_ej19_01_02_18.MainActivity">
+
+
+    <RadioGroup
+        android:id="@+id/rg_sexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/rb_mujer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mujer" />
+
+        <RadioButton
+            android:id="@+id/rb_hombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hombre" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preferencias" />
+
+    <CheckBox
+        android:id="@+id/cb_musica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Música" />
+
+    <CheckBox
+        android:id="@+id/cb_cine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cine" />
+
+    <CheckBox
+        android:id="@+id/cb_deporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deporte" />
+
+    <Button
+        android:id="@+id/btn_aceptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton"
+        />
+
+    <Button
+        android:id="@+id/btn_cancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton_cancelar"
+        android:onClick="pulsarCancelar"/>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">U2_Controles_ej19_01_02_18</string>
+    <string name="texto_boton">ACEPTAR</string>
+    <string name="texto_boton_cancelar">CANCELAR</string>
+</resources>
